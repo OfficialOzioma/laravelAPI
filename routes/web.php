@@ -11,9 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('googlemap', 'MapController@map');
-Route::get('googlemap/direction', 'MapController@direction');
+Route::get('/', 'MapController@map');
