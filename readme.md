@@ -4,5 +4,5 @@ Laravel Google API
 
 - Clone the Repo
 - Edit the .env file
-- Run ~composer install~
-- Run ~php artisan serve~
+- Run _composer install_
+- Run _php artisan serve_
